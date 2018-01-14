@@ -46,6 +46,8 @@ namespace UnitySampleAssets._2D
             jump = false;
             crouch = false;
         }
+
+
     }
 }
 

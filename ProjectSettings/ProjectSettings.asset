@@ -64,7 +64,7 @@ PlayerSettings:
   preserveFramebufferAlpha: 0
   disableDepthAndStencilBuffers: 0
   androidBlitType: 0
-  defaultIsFullScreen: 1
+  defaultIsFullScreen: 0
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 0
@@ -153,9 +153,9 @@ PlayerSettings:
   protectGraphicsMemory: 0
   useHDRDisplay: 0
   m_ColorGamuts: 00000000
-  targetPixelDensity: 30
-  resolutionScalingMode: 0
-  androidSupportedAspectRatio: 1
+  targetPixelDensity: 150
+  resolutionScalingMode: 1
+  androidSupportedAspectRatio: 0
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.Game.Game
@@ -631,7 +631,8 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: efbfc5fd-22e2-49f3-9f12-0655f325cac9
