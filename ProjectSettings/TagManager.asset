@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Bullet
   - Box
+  - PayloadPath
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Player1
   - Bullet1
   - Player2
-  - 
+  - Bullet2
   - 
   - 
   - 

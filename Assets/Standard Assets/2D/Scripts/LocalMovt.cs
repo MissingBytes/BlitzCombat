@@ -11,17 +11,12 @@ public class LocalMovt :NetworkBehaviour {
     {
         player = transform.Find("Canvas");
         player.gameObject.SetActive(true);
+        Debug.Log("Controls enabled");
 
         //GetComponent<MeshRenderer>().material.color = Color.red;
     }
     void Start () {
-        /*if (isLocalPlayer)
-        {
-            GameObject Player=GetComponent<Player1>
-            //GetComponent<Platformer2DUserControl>().enabled = true;
-            //GetComponentInChildren<Canvas>().enabled = true;
-           
-        }*/
+      
 
 	}
 	

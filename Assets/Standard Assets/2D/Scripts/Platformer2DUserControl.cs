@@ -8,6 +8,7 @@ namespace UnitySampleAssets._2D
     [RequireComponent(typeof(PlatformerCharacter2D))]
     public class Platformer2DUserControl : MonoBehaviour
     {
+
         public VirtualJoyStickL joyStickL;
         private PlatformerCharacter2D character;
         private bool jump;
@@ -47,8 +48,9 @@ namespace UnitySampleAssets._2D
             crouch = false;
         }
 
-
+  
     }
+
 }
 
 

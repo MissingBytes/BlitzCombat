@@ -38,7 +38,7 @@ namespace UnitySampleAssets._2D
         private void FixedUpdate()
         {
             // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
-            grounded = Physics2D.OverlapCircle(groundCheck.position, groundedRadius, whatIsGround);
+            grounded = true;//Physics2D.OverlapCircle(groundCheck.position, groundedRadius, whatIsGround);
             anim.SetBool("Ground", grounded);
 
             // Set the vertical animation
@@ -51,7 +51,7 @@ namespace UnitySampleAssets._2D
 
 
             // If crouching, check to see if the character can stand up
-            if (!crouch && anim.GetBool("Crouch"))
+            /*if (!crouch && anim.GetBool("Crouch"))
             {
                 // If the character has a ceiling preventing them from standing up, keep them crouching
                 if (Physics2D.OverlapCircle(ceilingCheck.position, ceilingRadius, whatIsGround))
@@ -59,7 +59,7 @@ namespace UnitySampleAssets._2D
             }
 
             // Set whether or not the character is crouching in the animator
-            anim.SetBool("Crouch", crouch);
+            anim.SetBool("Crouch", crouch);*/
 
             //only control the player if grounded or airControl is turned on
             if (grounded || airControl)

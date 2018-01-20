@@ -15,7 +15,7 @@ public class OnCollisionEvent : MonoBehaviour {
             Destroy(gameObject);
             pH.TakeDamage(10);
         }
-        if (col.gameObject.tag == "Box")
+        if (col.gameObject.tag == "Box" || col.gameObject.tag == "Wall")
         {
             Destroy(gameObject);
             Debug.Log("Bullet Destroyed");
