@@ -259,7 +259,7 @@ namespace Prototype.NetworkLobby
 
             idx = (idx + 1) % Colors.Length;
 
-            bool alreadyInUse = false;
+            /*bool alreadyInUse = false;
 
             do
             {
@@ -282,7 +282,7 @@ namespace Prototype.NetworkLobby
             else
             {//else we add it
                 _colorInUse.Add(idx);
-            }
+            }*/
 
             playerColor = Colors[idx];
         }

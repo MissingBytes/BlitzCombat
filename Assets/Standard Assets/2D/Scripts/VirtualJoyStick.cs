@@ -41,8 +41,8 @@ public class VirtualJoyStick : MonoBehaviour, IDragHandler,IPointerUpHandler,IPo
     public virtual void OnPointerUp(PointerEventData ped)
     {
        // Debug.Log("InPointerUp");
-        inputVector = Vector3.zero;
-        joystickImg.rectTransform.anchoredPosition = Vector3.zero;
+        //inputVector = Vector3.zero;
+        //joystickImg.rectTransform.anchoredPosition = Vector3.zero;
     }
 
     public float Horizontal()

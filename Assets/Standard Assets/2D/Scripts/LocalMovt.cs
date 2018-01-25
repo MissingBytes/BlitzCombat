@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 //using UnitySampleAssets._2D;
 
 public class LocalMovt :NetworkBehaviour {
-    Transform player;
+    public Transform player;
     // Use this for initialization
     public override void OnStartLocalPlayer()
     {

@@ -11,7 +11,7 @@ public class ArmRotation :NetworkBehaviour{
     public VirtualJoyStick joyStick;
     [SyncVar]Transform Arm;
 
-    public float FireRate = 10;
+    float FireRate = 3;
     public float Damage = 10;
     public LayerMask WhatToHit;
     [SerializeField] Vector3 Offset= new Vector3(0f, 0f,0);
@@ -19,7 +19,7 @@ public class ArmRotation :NetworkBehaviour{
     public GameObject BulletTrailPrefa;
     public GameObject Gun;
     [SyncVar] public Transform firePoint;
-    public VirtualJoyStick JoyStick;
+    //public VirtualJoyStick JoyStick;
     public Transform fPoint;
 
    [SyncVar] public String pName="NoobNoob";
@@ -30,10 +30,6 @@ public class ArmRotation :NetworkBehaviour{
     public float rotZ;
     public Vector3 fPos;
 
-    private void OnGUI()
-    {
-       // pName = GUI.TextField (new)
-    }
 
     void Start()
     {
@@ -53,7 +49,7 @@ public class ArmRotation :NetworkBehaviour{
             r.material.color = PlayerColor;
 
 
-    }
+   }
     // Update is called once per frame
     void Update () {
         //Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
@@ -69,9 +65,9 @@ public class ArmRotation :NetworkBehaviour{
          {
             if ((Math.Abs(joyStick.Vertical()) > 0.6 || Math.Abs(joyStick.Horizontal()) > 0.6) && Time.time > TimeToFire)
             {
-                TimeToFire = Time.time + 1 / FireRate;
-                Debug.Log("X");
-                Debug.Log(isLocalPlayer);
+                TimeToFire = Time.time + 1/FireRate ;
+               // Debug.Log("X");
+               // Debug.Log(isLocalPlayer);
           
                 CmdFire(fPos,rotZ);
             }
@@ -84,10 +80,11 @@ public class ArmRotation :NetworkBehaviour{
     void CmdFire(Vector3 fPos,float rotZ)
     {   
 
-        Debug.Log("In CmdFire");
+       // Debug.Log("In CmdFire");
         GameObject bullet = (GameObject)Instantiate(BulletTrailPrefa, fPos, Quaternion.Euler(0f, 0f, rotZ));
         //bullet.gameObject.layer = 7 + TeamNo * 2;
-        bullet.GetComponent<Rigidbody2D>().velocity = bullet.transform.right * 20;
+        bullet.GetComponent<Rigidbody2D>().velocity = bullet.transform.right * 40;
+        //bullet.GetComponent<Rigidbody2D>().AddForce(Vector3.forward *  40);
         NetworkServer.Spawn(bullet);
         Destroy(bullet, 2.0f);
     }

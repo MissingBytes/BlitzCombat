@@ -48,7 +48,7 @@ public class Weapon : NetworkBehaviour {
                 TimeToFire = Time.time + 1 / FireRate;
                 //Debug.Log("X");
                 //this.GetComponent<NetworkIdentity>().AssignClientAuthority(this.GetComponent<NetworkIdentity>().connectionToClient);
-                Debug.Log(isLocalPlayer);
+                //Debug.Log(isLocalPlayer);
                 
                 CmdFire();
             }

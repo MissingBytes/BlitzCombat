@@ -7,8 +7,8 @@ using UnityEngine.Networking;
 public class PlayerHealth : NetworkBehaviour
 {
 
-    public static int maxHealth = 250;
-    [SyncVar(hook = "OnChangeHealth")] public int currentHealth = 250;
+    public static int maxHealth = 100;
+    [SyncVar(hook = "OnChangeHealth")] public int currentHealth = maxHealth;
     public RectTransform healthRemaining;
     public RectTransform TotalHealthImg;
     float widthRatio;
@@ -34,7 +34,7 @@ public class PlayerHealth : NetworkBehaviour
         Debug.Log("Health:"+currentHealth);
         if (currentHealth <= 0)
         {
-            currentHealth = 250;
+            currentHealth = maxHealth;
             RpcRespawn();
             Debug.Log("Dead");
         }
@@ -47,7 +47,7 @@ public class PlayerHealth : NetworkBehaviour
 
     void OnChangeHealth(int Health)
     {
-        healthRemaining.sizeDelta = new Vector2(Health/1.25f, healthRemaining.sizeDelta.y);
+        healthRemaining.sizeDelta = new Vector2(Health*2, healthRemaining.sizeDelta.y);
     }
 
     [ClientRpc]
@@ -59,7 +59,7 @@ public class PlayerHealth : NetworkBehaviour
         if(isLocalPlayer)
         {
             if (PC4Respawn == Color.blue)
-                    this.transform.position = new Vector2(-18f + UnityEngine.Random.Range(0, 8f), 28.45f);
+                this.transform.position = new Vector2(-18f + UnityEngine.Random.Range(0, 8f), 28.45f);
             if (PC4Respawn == Color.red)
                 this.transform.position = new Vector2(49.9f + UnityEngine.Random.Range(0, 8f), 28.45f);
         }
