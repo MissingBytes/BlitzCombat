@@ -8,14 +8,15 @@ public class OnCollisionEvent : MonoBehaviour {
     // Use this for initialization
     void OnCollisionEnter2D(Collision2D col)
     {
-        GameObject hit = col.gameObject;
-        PlayerHealth pH = hit.GetComponent<PlayerHealth>();
+
         if (col.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
+            GameObject hit = col.gameObject;
+            PlayerHealth pH = hit.GetComponent<PlayerHealth>();
+           // Destroy(gameObject);
             pH.TakeDamage(10);
         }
-        if (col.gameObject.tag == "Bullet" || col.gameObject.tag == "Wall")
+        //if (col.gameObject.tag == "Bullet" || col.gameObject.tag == "Wall")
         {
             Destroy(gameObject);
             Debug.Log("Bullet Destroyed");

@@ -32,14 +32,16 @@ public class PlayerHealth : NetworkBehaviour
         
 
         Debug.Log("Health:"+currentHealth);
+        currentHealth -= amount;
         if (currentHealth <= 0)
         {
             currentHealth = maxHealth;
             RpcRespawn();
             Debug.Log("Dead");
         }
-        else
-            currentHealth -= amount;
+
+
+
 
         widthRatio = maxHealth / TotalHealthImg.rect.width;
         Debug.Log(widthRatio);

@@ -58,7 +58,6 @@ public class ArmRotation :NetworkBehaviour{
          fPoint= transform.Find("Arm/Gun/firepoint");
         //float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         rotZ = Mathf.Atan2(joyStick.Vertical(), joyStick.Horizontal()) * Mathf.Rad2Deg;
-
         Arm.rotation = Quaternion.Euler(0f, 0f, rotZ);
         fPos = fPoint.position;
 
@@ -72,6 +71,8 @@ public class ArmRotation :NetworkBehaviour{
                 CmdFire(fPos,rotZ);
             }
          }
+
+
 
     }
 
