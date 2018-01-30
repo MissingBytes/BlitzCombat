@@ -11,7 +11,7 @@ public class ArmRotation :NetworkBehaviour{
     public VirtualJoyStick joyStick;
     [SyncVar]Transform Arm;
 
-    float FireRate = 3;
+    public float FireRate = 10;
     public float Damage = 10;
     public LayerMask WhatToHit;
     [SerializeField] Vector3 Offset= new Vector3(0f, 0f,0);
@@ -62,7 +62,7 @@ public class ArmRotation :NetworkBehaviour{
         fPos = fPoint.position;
 
          {
-            if ((Math.Abs(joyStick.Vertical()) > 0.6 || Math.Abs(joyStick.Horizontal()) > 0.6) && Time.time > TimeToFire)
+            if ((Math.Abs(joyStick.Vertical()) > 0.6 || Math.Abs(joyStick.Horizontal()) > 0.6) && Time.time > TimeToFire && joyStick.isTouched)
             {
                 TimeToFire = Time.time + 1/FireRate ;
                // Debug.Log("X");
@@ -84,7 +84,9 @@ public class ArmRotation :NetworkBehaviour{
        // Debug.Log("In CmdFire");
         GameObject bullet = (GameObject)Instantiate(BulletTrailPrefa, fPos, Quaternion.Euler(0f, 0f, rotZ));
         //bullet.gameObject.layer = 7 + TeamNo * 2;
-        bullet.GetComponent<Rigidbody2D>().velocity = bullet.transform.right * 40;
+        //bullet.GetComponent<Rigidbody2D>().velocity = bullet.transform.right * 80;
+        bullet.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(4000,0)); //= bullet.transform.right * 80;
+
         //bullet.GetComponent<Rigidbody2D>().AddForce(Vector3.forward *  40);
         NetworkServer.Spawn(bullet);
         Destroy(bullet, 2.0f);

@@ -238,7 +238,7 @@ namespace Prototype.NetworkLobby
 
             ChangeTo(lobbyPanel);
             backDelegate = StopHostClbk;
-            SetServerInfo("Hosting", networkAddress);
+            SetServerInfo("Hosting", Network.player.ipAddress + " (Please ask others to connect to this IP)");//networkAddress
         }
 
 		public override void OnMatchCreate(bool success, string extendedInfo, MatchInfo matchInfo)
@@ -401,7 +401,7 @@ namespace Prototype.NetworkLobby
             {//only to do on pure client (not self hosting client)
                 ChangeTo(lobbyPanel);
                 backDelegate = StopClientClbk;
-                SetServerInfo("Client", networkAddress);
+                SetServerInfo("Client", Network.player.ipAddress+" (Please ask others to connect to this IP)");
             }
         }
 

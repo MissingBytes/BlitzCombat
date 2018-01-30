@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Grenade : MonoBehaviour {
+public class Grenade : NetworkBehaviour {
 
-    public float delay = 3f;
-    public float radius = 7;
-    public float explosionForce = -300;
+    public float delay = 1.5f;
+    public float radius = 10;
+    public float explosionForce = 100;
     public GameObject ExplosionEffect;
     public Collider2D[] ExplosinonColliders;
     float countdown;
@@ -22,12 +23,13 @@ public class Grenade : MonoBehaviour {
         countdown -= Time.deltaTime;
         if (countdown <= 0f && !hasExploded)
         {
-            Explode();
+            CmdExplode();
             hasExploded = true;
         }
 	}
 
-    void Explode()
+    
+    void CmdExplode()
     {
 
         Instantiate(ExplosionEffect, transform.position, transform.rotation);
@@ -47,8 +49,8 @@ public class Grenade : MonoBehaviour {
                 if (col.gameObject.tag == "Player")
                     {
                     //GameObject hit = ;
-                    PlayerHealth pH = col.gameObject.GetComponent<PlayerHealth>();
-                    Debug.Log("GrenadeHits");
+                        PlayerHealth pH = col.gameObject.GetComponent<PlayerHealth>();
+                        Debug.Log("GrenadeHits");
              
                         pH.TakeDamage(30);
                         
@@ -57,9 +59,6 @@ public class Grenade : MonoBehaviour {
                 Debug.Log("ForceADded");
             }
         }
-
-
-
         Destroy(gameObject);
     }
   

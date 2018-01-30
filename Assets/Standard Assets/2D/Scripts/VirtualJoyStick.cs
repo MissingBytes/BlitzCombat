@@ -10,6 +10,7 @@ public class VirtualJoyStick : MonoBehaviour, IDragHandler,IPointerUpHandler,IPo
     private Image bgImag;
     private Image joystickImg;
     private Vector3 inputVector;
+    public bool isTouched=false;
 
     void Start()
     {
@@ -35,11 +36,13 @@ public class VirtualJoyStick : MonoBehaviour, IDragHandler,IPointerUpHandler,IPo
 
     public virtual void OnPointerDown(PointerEventData ped)
     {
+        isTouched = true;
         OnDrag(ped);
     }
 
     public virtual void OnPointerUp(PointerEventData ped)
     {
+        isTouched = false;
        // Debug.Log("InPointerUp");
         //inputVector = Vector3.zero;
         //joystickImg.rectTransform.anchoredPosition = Vector3.zero;

@@ -47,7 +47,7 @@ public class PayloadMovement : NetworkBehaviour {
                              new Vector3(45.5f,13.6f) };
         transform.position = TravelPoints[0];
         TDistance = TotalDistance(TravelPoints);
-        Debug.Log("Total"+ TDistance);
+      //  Debug.Log("Total"+ TDistance);
     }
     
 

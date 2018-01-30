@@ -15,7 +15,6 @@ public class ThrowGrenade :NetworkBehaviour {
     public Vector3 fPos;
     float rotZ;
 
-    int NoofGrenadesLeft = 3;
 
     float ThrowRate = 0.1f;
     float TimeToThrow=0;
@@ -27,7 +26,8 @@ public class ThrowGrenade :NetworkBehaviour {
         //if (ThrowButton == null)
         { Debug.Log("Grenade button NOT found"); }
         // GetComponent<Button>();
-        //ThrowButton.onClick.AddListener(Throw);
+        Button btn = ThrowButton.GetComponent<Button>();
+        btn.onClick.AddListener(ToThrow);
         Debug.Log("GrenadeScript"+ThrowButton);
 
     }
@@ -42,16 +42,22 @@ public class ThrowGrenade :NetworkBehaviour {
             GrenadeImg.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
     }
 
-    [Command]
-    public void CmdThrow()
+    void ToThrow()
     {
-        if (TimeToThrow < Time.time && NoofGrenadesLeft>0)
+        CmdThrow(fPos, rotZ);
+    }
+
+    [Command]
+    public void CmdThrow(Vector3 fPos, float rotZ)
+    {
+        if (TimeToThrow < Time.time )
         {
            
            // NoofGrenadesLeft -= 1;
             TimeToThrow = Time.time + 1/ThrowRate;
             GrenadeImg.GetComponent<Image>().color = new Color32(255, 255, 255, 122);
             Debug.Log("ThrowingGrenade");
+
             GameObject Grenade = (GameObject)Instantiate(GrenadePrefab, fPos, Quaternion.Euler(0f, 0f, rotZ));
             Grenade.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(10000, 1000));
             Grenade.GetComponent<Rigidbody2D>().AddTorque(500);

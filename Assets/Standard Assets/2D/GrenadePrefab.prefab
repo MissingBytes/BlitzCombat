@@ -103,7 +103,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 1
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8be6341e1ce3f4cec9902bc34f72d20a, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_SendInterval: 0.033333335
   m_SyncRotationAxis: 3
   m_RotationSyncCompression: 0
-  m_SyncSpin: 0
+  m_SyncSpin: 1
   m_MovementTheshold: 0.001
   m_VelocityThreshold: 0.0001
   m_SnapThreshold: 5
@@ -198,8 +198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cfca3b8aabf8694b8a64484adac147f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2.5
-  radius: 7
+  delay: 1.5
+  radius: 10
   explosionForce: 100
   ExplosionEffect: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 2}
   ExplosinonColliders: []

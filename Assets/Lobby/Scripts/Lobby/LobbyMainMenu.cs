@@ -1,14 +1,15 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.Networking;
 
 namespace Prototype.NetworkLobby
 {
     //Main menu, mainly only a bunch of callback called by the UI (setup throught the Inspector)
-    public class LobbyMainMenu : MonoBehaviour 
+    public class LobbyMainMenu : NetworkBehaviour
     {
         public LobbyManager lobbyManager;
-
+        [SyncVar] public string IP;
         public RectTransform lobbyServerList;
         public RectTransform lobbyPanel;
 
@@ -28,14 +29,19 @@ namespace Prototype.NetworkLobby
 
         public void OnClickHost()
         {
+            IP = Network.player.ipAddress;
+            Debug.Log("Host" + IP);
             lobbyManager.StartHost();
+            
         }
 
         public void OnClickJoin()
         {
             lobbyManager.ChangeTo(lobbyPanel);
+            
+            lobbyManager.networkAddress = ipInput.text ;//IP;
+            Debug.Log("Client" + IP);
 
-            lobbyManager.networkAddress = ipInput.text;
             lobbyManager.StartClient();
 
             lobbyManager.backDelegate = lobbyManager.StopClientClbk;
