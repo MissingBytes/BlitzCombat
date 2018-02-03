@@ -10,7 +10,7 @@ public class NetworkLobbyHook : LobbyHook {
     public override void OnLobbyServerSceneLoadedForPlayer(NetworkManager manager, GameObject lobbyPlayer,GameObject gamePlayer)
     {
         LobbyPlayer lobby = lobbyPlayer.GetComponent<LobbyPlayer>();
-        ArmRotation localPlayer = gamePlayer.GetComponent<ArmRotation>();
+        Movt localPlayer = gamePlayer.GetComponent<Movt>();
        
 
         localPlayer.pName = lobby.playerName;

@@ -24,7 +24,7 @@ public class ThrowGrenade :NetworkBehaviour {
         fPoint = transform.Find("Arm/Gun/firepoint");
         //ThrowButton = GameObject.Find("GrenadeButton").GetComponentInChildren<Button>();
         //if (ThrowButton == null)
-        { Debug.Log("Grenade button NOT found"); }
+        //{ Debug.Log("Grenade button NOT found"); }
         // GetComponent<Button>();
         Button btn = ThrowButton.GetComponent<Button>();
         btn.onClick.AddListener(ToThrow);

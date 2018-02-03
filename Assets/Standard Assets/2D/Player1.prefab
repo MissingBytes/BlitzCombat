@@ -244,7 +244,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4184655830141580
 Transform:
   m_ObjectHideFlags: 1
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 4985626773340444}
+  m_Target: {fileID: 4949272114085002}
   m_ChildIndex: 0
   m_SendInterval: 0.033333335
   m_SyncRotationAxis: 7
@@ -444,6 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af31d442437af0d44b05de576d666b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTouched: 0
 --- !u!114 &114252817651568818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -499,6 +500,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joyStick: {fileID: 114220923615280654}
+  Arm: {fileID: 0}
+  FireRate: 10
   Damage: 10
   WhatToHit:
     serializedVersion: 2
@@ -512,8 +515,11 @@ MonoBehaviour:
   pName: NoobNoob
   TeamNo: 0
   PlayerColor: {r: 0, g: 0, b: 0, a: 0}
+  fPos: {x: 0, y: 0}
   rotZ: 0
-  fPos: {x: 0, y: 0, z: 0}
+  isFiring: 0
+  fx: 0
+  fy: 0
 --- !u!114 &114318069872856076
 MonoBehaviour:
   m_ObjectHideFlags: 1

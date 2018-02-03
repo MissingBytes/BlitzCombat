@@ -52,7 +52,7 @@ public class Grenade : NetworkBehaviour {
                         PlayerHealth pH = col.gameObject.GetComponent<PlayerHealth>();
                         Debug.Log("GrenadeHits");
              
-                        pH.TakeDamage(30);
+                        pH.TakeDamage(70);
                         
                     }
                 //rb.AddForce(new Vector3 (100,100,0)-transform.position);

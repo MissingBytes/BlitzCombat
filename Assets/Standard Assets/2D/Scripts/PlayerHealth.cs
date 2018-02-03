@@ -12,7 +12,7 @@ public class PlayerHealth : NetworkBehaviour
     public RectTransform healthRemaining;
     public RectTransform TotalHealthImg;
     float widthRatio;
-    ArmRotation GetColor;
+    Movt GetColor;
     Color PC4Respawn;
    
     // Use this for initialization
@@ -56,7 +56,7 @@ public class PlayerHealth : NetworkBehaviour
     void RpcRespawn()
   {
         //Debug.Log(GetColor.PlayerColor+"Respawning");
-        GetColor = this.GetComponent<ArmRotation>();
+        GetColor = this.GetComponent<Movt>();
         PC4Respawn = GetColor.PlayerColor;
         if(isLocalPlayer)
         {

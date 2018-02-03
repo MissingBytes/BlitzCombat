@@ -18,7 +18,7 @@ public class ShowObjective : NetworkBehaviour {
         Debug.Log("ISlocla" + isLocalPlayer);
       
         {
-            PColor = GetComponentInParent<ArmRotation>().PlayerColor;
+            PColor = GetComponentInParent<Movt>().PlayerColor;
             if (PColor == Color.blue)
                 StartInfoText.text = "PUSH THE NUKE";
             else if (PColor == Color.red)

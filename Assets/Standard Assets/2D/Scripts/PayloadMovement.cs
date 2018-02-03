@@ -1,4 +1,4 @@
-﻿using Prototype.NetworkLobby;
+﻿
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +10,7 @@ public class PayloadMovement : NetworkBehaviour {
     int i;
     Vector3[] TravelPoints;
     public float Radius = 7f;
-    public Collider[] colliders;
+    public Collider2D[] colliders;
     public LayerMask mask;
 
  public Text timerText;
@@ -80,25 +80,28 @@ public class PayloadMovement : NetworkBehaviour {
             if (transform.position == TravelPoints[i] && TravelPoints.Length - 1 > i)
                 i++;
 
-            colliders = Physics.OverlapSphere(transform.position, Radius, mask);
+            colliders = Physics2D.OverlapCircleAll(transform.position, Radius, mask);
            // Debug.Log("In Payload Scirpt");
-            foreach (Collider col in colliders)
+            foreach (Collider2D col in colliders)
             {
-               // bool RedNear = false;
-                foreach (Collider co in colliders)
-                    if (co.transform.parent.gameObject.GetComponent<ArmRotation>().PlayerColor == Color.red)
-                    { //RedNear = true;
-                        goto skip;
-                    }
-                if (col.transform.parent.gameObject.GetComponent<ArmRotation>().PlayerColor == Color.blue)
+                if (col.gameObject.tag == "Player")
+                {   // bool RedNear = false;
+                    foreach (Collider2D co in colliders)
+
+                        if (co.transform.gameObject.GetComponent<Movt>().PlayerColor == Color.red)
+                        { //RedNear = true;
+                            goto skip;
+                        }
+                    if (col.transform.gameObject.GetComponent<Movt>().PlayerColor == Color.blue)
                     {
                         transform.position = Vector2.MoveTowards(transform.position, TravelPoints[i], step);
-                        DistanceTravelled += step ;
-                    
-                        Debug.Log("Distanceperc,Distance,Tdist"+ DistanceTravelled / TDistance);
-                        Debug.Log("Distance"+ DistanceTravelled);
-                        Debug.Log("Tdist"+ TDistance);
+                        DistanceTravelled += step;
+
+                        Debug.Log("Distanceperc,Distance,Tdist" + DistanceTravelled / TDistance);
+                        Debug.Log("Distance" + DistanceTravelled);
+                        Debug.Log("Tdist" + TDistance);
                     }
+                }
                 //Debug.Log("Moving Payload");
             }
             skip:;
@@ -126,6 +129,8 @@ public class PayloadMovement : NetworkBehaviour {
         ProgressPercentage.text = string.Format("{0:N0}",(DistanceTravelled / 168.23f) * 100) +"%"; 
 
     }
+
+
 
 
 }
