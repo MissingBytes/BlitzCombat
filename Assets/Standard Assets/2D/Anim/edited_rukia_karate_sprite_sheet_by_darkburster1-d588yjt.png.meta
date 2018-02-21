@@ -1,0 +1,1117 @@
+fileFormatVersion: 2
+guid: 3fede411384fa394cbd7fba2ac855a15
+timeCreated: 1518329157
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_0
+    21300002: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_1
+    21300004: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_2
+    21300006: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_3
+    21300008: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_4
+    21300010: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_5
+    21300012: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_6
+    21300014: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_7
+    21300016: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_8
+    21300018: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_9
+    21300020: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_10
+    21300022: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_11
+    21300024: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_12
+    21300026: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_13
+    21300028: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_14
+    21300030: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_15
+    21300032: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_16
+    21300034: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_17
+    21300036: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_18
+    21300038: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_19
+    21300040: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_20
+    21300042: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_21
+    21300044: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_22
+    21300046: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_23
+    21300048: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_24
+    21300050: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_25
+    21300052: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_26
+    21300054: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_27
+    21300056: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_28
+    21300058: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_29
+    21300060: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_30
+    21300062: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_31
+    21300064: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_32
+    21300066: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_33
+    21300068: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_34
+    21300070: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_35
+    21300072: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_36
+    21300074: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_37
+    21300076: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_38
+    21300078: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_39
+    21300080: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_40
+    21300082: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_41
+    21300084: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_42
+    21300086: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_43
+    21300088: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_44
+    21300090: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_45
+    21300092: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_46
+    21300094: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_47
+    21300096: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_48
+    21300098: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_49
+    21300100: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_50
+    21300102: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_51
+    21300104: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_52
+    21300106: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_53
+    21300108: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_54
+    21300110: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_55
+    21300112: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_56
+    21300114: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_57
+    21300116: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_58
+    21300118: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_59
+    21300120: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_60
+    21300122: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_61
+    21300124: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_62
+    21300126: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_63
+    21300128: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_64
+    21300130: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_65
+    21300132: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_66
+    21300134: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_67
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1013
+        width: 49
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1012
+        width: 50
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1013
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1013
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1012
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_5
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1012
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_6
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1011
+        width: 41
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_7
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1012
+        width: 45
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 898
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 900
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 901
+        width: 61
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 900
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 905
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 904
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_14
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 899
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_15
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 901
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_16
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 901
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 769
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 794
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 779
+        width: 47
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 788
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 791
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_22
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 745
+        width: 84
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_23
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 746
+        width: 73
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 676
+        width: 80
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_25
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 666
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 665
+        width: 51
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 655
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_28
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 667
+        width: 55
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_29
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 666
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_30
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 614
+        width: 106
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_31
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 613
+        width: 73
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_32
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 572
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 572
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_34
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 572
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 573
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 462
+        width: 59
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 461
+        width: 52
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 460
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_39
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 461
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_40
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 462
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_41
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 356
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_42
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 356
+        width: 49
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 353
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_44
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 350
+        width: 61
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_45
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 358
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_46
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 333
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_47
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 353
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_48
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 353
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 233
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_50
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 235
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_51
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 235
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_52
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 235
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_53
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 298
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_54
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 234
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_55
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 132
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_56
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 131
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_57
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 131
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_58
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 134
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_59
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 138
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_60
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 139
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_61
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 24
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_62
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 36
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_63
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 17
+        width: 95
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_64
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 14
+        width: 108
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_65
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 22
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_66
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 15
+        width: 97
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: edited_rukia_karate_sprite_sheet_by_darkburster1-d588yjt_67
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 11
+        width: 108
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

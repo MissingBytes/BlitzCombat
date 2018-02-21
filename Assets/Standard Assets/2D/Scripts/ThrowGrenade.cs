@@ -34,6 +34,7 @@ public class ThrowGrenade :NetworkBehaviour {
 
     // Update is called once per frame
     void Update () {
+
         fPos = fPoint.position;
         rotZ = Mathf.Atan2(joyStick.Vertical(), joyStick.Horizontal()) * Mathf.Rad2Deg;
         if(Time.time - TimeToThrow<0)

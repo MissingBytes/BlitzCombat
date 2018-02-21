@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Box
   - PayloadPath
+  - body
   layers:
   - Default
   - TransparentFX

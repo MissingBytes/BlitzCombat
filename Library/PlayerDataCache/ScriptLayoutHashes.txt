@@ -1,4 +1,4 @@
-WindowsStandalone
+Android
 SceneListBegin?
 Assets/Standard Assets/2D/lobbyScene.unity
 Assets/Standard Assets/2D/a.unity
@@ -7,6 +7,7 @@ SceneListEnd?
 232060a90f95566bcc40faecf07828c5 Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyMainMenu
 7ba1e84ad3d2d8813486668e75f842ce Assembly-CSharp-firstpass.dll:UnitySampleAssets.Effects.ExtinguishableParticleSystem
 78a93563d816fda5fd1bd025dec23f3f Assembly-CSharp-firstpass.dll:UnitySampleAssets.ImageEffects.CameraInfo
+1a7a297bdd339eb303f596f146bb3468 Assembly-CSharp-firstpass.dll:.MeeleAttack
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -71,7 +72,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 8e9f5b922979e9356a11d2ee2b32ee60 Assembly-CSharp-firstpass.dll:UnitySampleAssets.CrossPlatformInput.TiltInput
 aa13baec1c19c8fa869cb21cb01a3767 Assembly-CSharp-firstpass.dll:.WaterBase
 7b2e344197a14d785c6ff88dbb4e1d89 Assembly-CSharp-firstpass.dll:.VirtualJoyStick
-9ed0cf22d6fa61ab3dfa3ed2ffbdefc2 Assembly-CSharp-firstpass.dll:.PlayerHealth
+0d703e135c5d5698d2d17c0f418f3e84 Assembly-CSharp-firstpass.dll:.PlayerHealth
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -150,6 +151,7 @@ b3432dfe180f02232d7612fb366593d3 Assembly-CSharp-firstpass.dll:UnitySampleAssets
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnitySampleAssets.Vehicles.Car.CarUserControl
 1c859dfdbbcb0df99ff62d9e20d40887 Assembly-CSharp.dll:.GunShoot
 07701aa818d962a77e81dc66b620136d Assembly-CSharp.dll:.DecalDestroyer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.ChooseBuff
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 6e714b24188cddfc9ae1e07d05ed4ddd Assembly-CSharp-firstpass.dll:UnitySampleAssets.Utility.ParticleSystemDestroyer
@@ -162,6 +164,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9592c70db37f0c96bd3aeb32d1386726 Assembly-CSharp-firstpass.dll:UnitySampleAssets.Vehicles.Aeroplane.AeroplaneController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnitySampleAssets.Utility.DragRigidbody
+152682f2d9f20c87271e5d182ee7a5c5 Assembly-CSharp.dll:.PlayerCharacterRender
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp-firstpass.dll:.Joystick
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NetworkLobbyHook
 97250c504047e360c39e4024b2a77c39 Assembly-CSharp-firstpass.dll:UnitySampleAssets.Utility.PlatformSpecificContent
@@ -293,11 +296,13 @@ f62d1e12c4ea2e5d19ca5a2c81b0bf32 Assembly-CSharp-firstpass.dll:UnitySampleAssets
 4f4bb7af34c37b052df637a30736b4e2 Assembly-CSharp-firstpass.dll:UnitySampleAssets.Vehicles.Car.CarController
 fdbfa25990cb9e5ad64f21f06aaecc7f Assembly-CSharp-firstpass.dll:.PlayersFiring
 f4b175ffc1eeca85d2783436b4c764a7 Assembly-CSharp-firstpass.dll:UnitySampleAssets.Effects.Explosive
+a2f2b113ea884e81585541bd2047072c Assembly-CSharp-firstpass.dll:.Movt
 6746ad828d32ad6e5c07a63950fd4be6 Assembly-CSharp-firstpass.dll:.WaterTile
 f12010d6860fab93c8bd3e21253caf0c Assembly-CSharp-firstpass.dll:UnitySampleAssets.EdgeDetectEffectNormals
 3ae0dad0b55a80319e1d57c2dce28da7 Assembly-CSharp-firstpass.dll:UnitySampleAssets.ImageEffects.Tonemapping
 6aed450ddb9f03ea3c48fa6ca3d490b8 Assembly-CSharp-firstpass.dll:UnitySampleAssets.ImageEffects.CameraMotionBlur
 77c4c6e5f90c00aa6a5a2a81d3aee9ee Assembly-CSharp-firstpass.dll:UnitySampleAssets.ImageEffects.Vignetting
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.PlayerAnimator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnitySampleAssets.Utility.FPSCounter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Prototype.NetworkLobby.DraggablePanel
 d6b197b941f51c735b6721555b9b68f8 Assembly-CSharp.dll:.RotateArm
@@ -306,4 +311,3 @@ d6b197b941f51c735b6721555b9b68f8 Assembly-CSharp.dll:.RotateArm
 114a2075c23efd2c1141c7875a5d89c8 Assembly-CSharp-firstpass.dll:UnitySampleAssets._2D.PlatformerCharacter2D
 239d2cc8d353bbfcbefc27fa8f0221cc Assembly-CSharp.dll:Prototype.NetworkLobby.LobbyServerList
 8300a5eeb1af34f182cf2e246ffc120f Assembly-CSharp-firstpass.dll:UnitySampleAssets.Utility.AutoMobileShaderSwitch
-2c5dbaf9c31157cf13975cead410a0ff Assembly-CSharp-firstpass.dll:.Movt

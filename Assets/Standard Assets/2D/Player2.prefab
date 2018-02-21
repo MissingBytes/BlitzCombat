@@ -129,7 +129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1216296402564602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,6 +1438,7 @@ MonoBehaviour:
   currentHealth: 100
   healthRemaining: {fileID: 224668241972787390}
   TotalHealthImg: {fileID: 224871488568865906}
+  cb: {fileID: 0}
 --- !u!114 &114912628408647236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1572,7 +1573,7 @@ SpriteRenderer:
   m_Size: {x: 4.7, y: 11.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!212 &212294501852439576
 SpriteRenderer:

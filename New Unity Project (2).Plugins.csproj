@@ -288,14 +288,17 @@
     <Compile Include="Assets\Standard Assets\2D\Scripts\ArmRotation.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Standard Assets\2D\Scripts\ChooseBuff.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\Grenade.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\LocalMovt.cs" />
+    <Compile Include="Assets\Standard Assets\2D\Scripts\MeeleAttack.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\MoveTrail.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\Movt.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\OnCollisionEvent.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\PayloadMovement.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
+    <Compile Include="Assets\Standard Assets\2D\Scripts\PlayerAnimator.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\PlayersFiring.cs" />
     <Compile Include="Assets\Standard Assets\2D\Scripts\PortalTeleport.cs" />
